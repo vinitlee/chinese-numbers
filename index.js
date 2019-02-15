@@ -10,7 +10,7 @@ const app = express();
 const http = require('http');
 const server = http.Server(app);
 const io = require('socket.io')(server);
-const port = 3000
+const port = process.env.PORT || 8080;
 
 const Polly = new AWS.Polly({
     signatureVersion: 'v4',
