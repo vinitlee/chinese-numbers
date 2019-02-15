@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto');
+
+*:active,*:focus {
+    outline: none;
+}
+* {
+    color: inherit;
+}
+
+:root {
+    --color-primary: #F0F0F0;
+    --color-text: #303030;
+    --color-highlight: #ded816;
+
+}
+
+body {
+    font-family: 'Roboto', 'Noto Sans SC', sans-serif;
+    margin: 10mm;
+    background: var(--color-primary);
+    color: var(--color-text);
+    height: 100%;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+#challenges {
+    font-family: 'Roboto Mono', 'Noto Sans SC', 'Courier New', Courier, monospace;
+    font-size: 18pt;
+}
+#challenges ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+#challenges li {
+    list-style: none;
+    display: block;
+    width: fit-content;
+    height: 27pt;
+}
+#challenges li.wrong {
+    background-color: var(--color-highlight)
+}
+
+#challenges input {
+    background: var(--color-highlight);
+    border: none;
+    height: 27pt;
+    
+    font-family: inherit;
+    font-size: inherit;
+}

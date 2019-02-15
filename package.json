@@ -1,0 +1,21 @@
+{
+  "name": "learn-chinese-numbers",
+  "version": "1.0.0",
+  "description": "Tool to help learn chinese numbers",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "aws-sdk": ">= 2.0.9",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "author": "Vincent Lee",
+  "license": "ISC"
+}
